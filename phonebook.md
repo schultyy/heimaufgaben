@@ -57,7 +57,7 @@ The `phonebook.json` looks like this:
 ```ruby
 require 'json'
 
-var contents = JSON.parse(File.read('phonebook.json'))
+contents = JSON.parse(File.read('phonebook.json'))
 # contents then returns an array of hashes
 # A single hash represents an entry in the phonebook
 ```
